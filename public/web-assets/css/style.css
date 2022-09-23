@@ -1,0 +1,47 @@
+@font-face {
+    font-family: modernaF;
+    src: url(../fonts/moderna.ttf);
+}
+
+/* MENU */
+#main-menu {
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    border-bottom: 1px solid #124d41;
+}
+
+#main-menu>a>img {
+    width: 180px;
+}
+
+#search-input {
+    font-family: modernaF;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #124d41;
+    border-radius: 1px;
+    border: 0.5px solid black;
+}
+#search-input::placeholder {
+    color: #124d41;
+}
+#search-button {
+    background-color: transparent;
+    border: none;
+}
+#search-button > img {
+    width: 20px;
+}
+.nav-item {
+    margin-right: 40px;
+    border-bottom: 1px solid #124d41;
+}
+.nav-link {
+    color: #124d41;
+    font-size: 16px;
+    font-family: modernaF;
+    letter-spacing: 5px;
+}
+/* MENU */
+
